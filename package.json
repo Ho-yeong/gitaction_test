@@ -4,9 +4,9 @@
   "description": "---",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/init.js",
+    "dev": "nodemon --exec babel-node app.js",
     "build": "babel src --out-dir dist --copy-files ",
-    "start": "node dist/init.js",
+    "start": "node dist/app.js",
     "test": "jest ./__test__",
     "test:e2e": "jest ./__e2e__"
   },
