@@ -1,6 +1,6 @@
 export const functionSum = (a, b) => {
-  if (!a || !b) {
-    return new Error('Give me numbers');
+  if (isNaN(Number(a)) || isNaN(Number(b))) {
+    throw new Error('Give me numbers');
   }
-  return a + b;
+  return Number(a) + Number(b);
 };
