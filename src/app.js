@@ -7,7 +7,7 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/ping', (req, res, next) => {
-  return res.status(200).json({ message: 'pong' });
+  res.status(200).json({ message: 'pong' });
 });
 
 app.use('/sum/:num1/:num2', (req, res, next) => {

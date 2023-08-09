@@ -2,9 +2,9 @@
   "name": "gitaction_test",
   "version": "1.0.0",
   "description": "---",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node app.js",
+    "dev": "nodemon --exec babel-node src/app.js",
     "build": "babel src --out-dir dist --copy-files ",
     "start": "node dist/app.js",
     "test": "jest ./__test__",
