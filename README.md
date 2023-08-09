@@ -1,8 +1,7 @@
 # Git Action Test
 
----
 
-### Branches
+## Branches
 - main
   - Live용 브랜치
 - dev
