@@ -4,6 +4,8 @@ import { functionSum } from './sum';
 const app = express();
 const port = 3000;
 
+console.log('main');
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/ping', (req, res, next) => {
