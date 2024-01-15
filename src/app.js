@@ -9,7 +9,7 @@ console.log('main');
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/ping', (req, res, next) => {
-  res.status(200).json({ message: 'pong' });
+  res.status(200).json({ message: 'pong 2' });
 });
 
 app.use('/sum/:num1/:num2', (req, res, next) => {
