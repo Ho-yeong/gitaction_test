@@ -4,7 +4,7 @@ import { functionSum } from './sum';
 const app = express();
 const port = 3000;
 
-console.log('dev');
+console.log('main');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
